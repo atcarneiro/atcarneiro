@@ -1,0 +1,52 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+
+div.header{
+    height: 120px;
+}
+div.logo{
+    float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+nav li{
+    width: 135px;
+    height: 40px;
+}
+
+ul.main li a{
+font-size: 16pt;
+}
+ul.sub li{
+    list-style: none;
+}
+ul.sub{
+    display: none;
+}
+
+ul.sub li a{
+    color: rgba(247, 6, 6, 0.938);
+}
+form#pesq{
+    position: absolute;
+    right: 0;
+}
+form#pesq input{
+    border-radius: 20px;
+}
+
+h1#ango{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(247, 6, 6, 0.938);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2#turismo{
+    text-transform: uppercase;
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
